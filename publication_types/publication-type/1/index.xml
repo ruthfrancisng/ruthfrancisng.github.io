@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Ruth Ng</title>
+    <link>https://thisurlisnotruthless.com/publication-type/1/</link>
+      <atom:link href="https://thisurlisnotruthless.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://thisurlisnotruthless.com/media/icon_hucff6e2a541fb0e93fcc30f7393854c2b_4830_512x512_fill_lanczos_center_3.png</url>
+      <title>1</title>
+      <link>https://thisurlisnotruthless.com/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Improved Structured Encryption for SQL Databases via Hybrid Indexing (ACNS 2021)</title>
+      <link>https://thisurlisnotruthless.com/publication/sqlcrypt/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://thisurlisnotruthless.com/publication/sqlcrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonces are Noticed: AEAD Revisited (CRYPTO 2019)</title>
+      <link>https://thisurlisnotruthless.com/publication/nonces/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://thisurlisnotruthless.com/publication/nonces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Probabilistic Analysis of CASCADE</title>
+      <link>https://thisurlisnotruthless.com/publication/cascade/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://thisurlisnotruthless.com/publication/cascade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Security of the XOR Sandwiching Paradigm for Multiple Keyed Block Ciphers (SECRYPT 2013)</title>
+      <link>https://thisurlisnotruthless.com/publication/sandwiches/</link>
+      <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://thisurlisnotruthless.com/publication/sandwiches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Accurate Analysis of the BINARY Information Reconciliation Protocol by Generating Functions (QCRYPT 2013)</title>
+      <link>https://thisurlisnotruthless.com/publication/binary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://thisurlisnotruthless.com/publication/binary/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

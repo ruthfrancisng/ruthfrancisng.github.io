@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Improved Structured Encryption for SQL Databases via Hybrid Indexing</title>
+      <title>Improved Structured Encryption for SQL Databases via Hybrid Indexing (ACNS 2021)</title>
       <link>https://thisurlisnotruthless.com/publication/sqlcrypt/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://thisurlisnotruthless.com/publication/sqlcrypt/</guid>
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Nonces are Noticed: AEAD Revisited</title>
+      <title>Nonces are Noticed: AEAD Revisited (CRYPTO 2019)</title>
       <link>https://thisurlisnotruthless.com/publication/nonces/</link>
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://thisurlisnotruthless.com/publication/nonces/</guid>
@@ -29,7 +29,7 @@
     </item>
     
     <item>
-      <title>A Probabilistic Analysis of CASCADE</title>
+      <title>A Probabilistic Analysis of CASCADE (QCRYPT 2014)</title>
       <link>https://thisurlisnotruthless.com/publication/cascade/</link>
       <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
       <guid>https://thisurlisnotruthless.com/publication/cascade/</guid>
@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>On the Security of the XOR Sandwiching Paradigm for Multiple Keyed Block Ciphers</title>
+      <title>On the Security of the XOR Sandwiching Paradigm for Multiple Keyed Block Ciphers (SECRYPT 2013)</title>
       <link>https://thisurlisnotruthless.com/publication/sandwiches/</link>
       <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://thisurlisnotruthless.com/publication/sandwiches/</guid>
@@ -45,7 +45,7 @@
     </item>
     
     <item>
-      <title>An Accurate Analysis of the BINARY Information Reconciliation Protocol by Generating Functions</title>
+      <title>An Accurate Analysis of the BINARY Information Reconciliation Protocol by Generating Functions (QCRYPT 2013)</title>
       <link>https://thisurlisnotruthless.com/publication/binary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://thisurlisnotruthless.com/publication/binary/</guid>
