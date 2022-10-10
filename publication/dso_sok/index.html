@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="We apply the XOR sandwiching paradigm to 2-Key and 3-Key Triple-DES to extend their keylengths, then study the added security afforded by this against cryptanalytic attacks." />
+  <meta name="description" content="In this work, we present a systematization of cryptanalysis of SBox-based block ciphers." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://thisurlisnotruthless.com/publication/sandwiches/" />
+  <link rel="alternate" hreflang="en-us" href="https://thisurlisnotruthless.com/publication/dso_sok/" />
 
   
 
@@ -276,7 +276,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hucff6e2a541fb0e93fcc30f7393854c2b_4830_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hucff6e2a541fb0e93fcc30f7393854c2b_4830_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://thisurlisnotruthless.com/publication/sandwiches/" />
+  <link rel="canonical" href="https://thisurlisnotruthless.com/publication/dso_sok/" />
 
   
   
@@ -292,18 +292,18 @@
   <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Ruth Ng" />
-  <meta property="og:url" content="https://thisurlisnotruthless.com/publication/sandwiches/" />
-  <meta property="og:title" content="On the Security of the XOR Sandwiching Paradigm for Multiple Keyed Block Ciphers (SECRYPT 2013) | Ruth Ng" />
-  <meta property="og:description" content="We apply the XOR sandwiching paradigm to 2-Key and 3-Key Triple-DES to extend their keylengths, then study the added security afforded by this against cryptanalytic attacks." /><meta property="og:image" content="https://thisurlisnotruthless.com/publication/sandwiches/featured.png" />
-    <meta property="twitter:image" content="https://thisurlisnotruthless.com/publication/sandwiches/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://thisurlisnotruthless.com/publication/dso_sok/" />
+  <meta property="og:title" content="SoK: Security Evaluation of SBox-Based Block Ciphers | Ruth Ng" />
+  <meta property="og:description" content="In this work, we present a systematization of cryptanalysis of SBox-based block ciphers." /><meta property="og:image" content="https://thisurlisnotruthless.com/publication/dso_sok/featured.png" />
+    <meta property="twitter:image" content="https://thisurlisnotruthless.com/publication/dso_sok/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2013-07-29T00:00:00&#43;00:00"
+        content="2022-08-29T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2013-07-29T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-08-29T00:00:00&#43;00:00">
   
 
   
@@ -325,20 +325,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://thisurlisnotruthless.com/publication/sandwiches/"
+    "@id": "https://thisurlisnotruthless.com/publication/dso_sok/"
   },
-  "headline": "On the Security of the XOR Sandwiching Paradigm for Multiple Keyed Block Ciphers (SECRYPT 2013)",
+  "headline": "SoK: Security Evaluation of SBox-Based Block Ciphers",
   
   "image": [
-    "https://thisurlisnotruthless.com/publication/sandwiches/featured.png"
+    "https://thisurlisnotruthless.com/publication/dso_sok/featured.png"
   ],
   
-  "datePublished": "2013-07-29T00:00:00Z",
-  "dateModified": "2013-07-29T00:00:00Z",
+  "datePublished": "2022-08-29T00:00:00Z",
+  "dateModified": "2022-08-29T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Ruth Ii-Yung Ng"
+    "name": "Joelle Lim"
   },
   
   "publisher": {
@@ -349,7 +349,7 @@
       "url": "https://thisurlisnotruthless.com/media/icon_hucff6e2a541fb0e93fcc30f7393854c2b_4830_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "We apply the XOR sandwiching paradigm to 2-Key and 3-Key Triple-DES to extend their keylengths, then study the added security afforded by this against cryptanalytic attacks."
+  "description": "In this work, we present a systematization of cryptanalysis of SBox-based block ciphers."
 }
 </script>
 
@@ -365,11 +365,11 @@
 
 
 
-  <title>On the Security of the XOR Sandwiching Paradigm for Multiple Keyed Block Ciphers (SECRYPT 2013) | Ruth Ng</title>
+  <title>SoK: Security Evaluation of SBox-Based Block Ciphers | Ruth Ng</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="32fa1465ab56256962dc2f320b656cac" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c89aa308e89f83f905e62041abdc2b72" >
 
   
   
@@ -707,7 +707,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>On the Security of the XOR Sandwiching Paradigm for Multiple Keyed Block Ciphers (SECRYPT 2013)</h1>
+  <h1>SoK: Security Evaluation of SBox-Based Block Ciphers</h1>
 
   
 
@@ -724,9 +724,9 @@
     
 
   <span >
-      Ruth Ii-Yung Ng</span>, <span >
-      Khoongming Khoo</span>, <span >
-      Raphael C-W Phan</span>
+      Joelle Lim</span>, <span >
+      Derrick Ng</span>, <span >
+      Ruth Ng</span>
   </div>
   
   
@@ -737,7 +737,7 @@
     
       
     
-    July 2013
+    August 2022
   </span>
   
 
@@ -777,14 +777,14 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="/publication/sandwiches/sandwiches.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/publication/dso_sok/dso_sok.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/sandwiches/cite.bib">
+        data-filename="/publication/dso_sok/cite.bib">
   Cite
 </a>
 
@@ -800,10 +800,6 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.5220/0004505903050312" target="_blank" rel="noopener">
-  DOI
-</a>
-
 
 
 </div>
@@ -812,9 +808,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 535px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 509px;">
   <div style="position: relative">
-    <img src="/publication/sandwiches/featured_hu7b6ba2573d862950699d30864bdd1071_149695_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <img src="/publication/dso_sok/featured_huba225533244c34986ea53087b8b20e2d_274488_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -825,7 +821,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">While block cipher design is relatively mature, advances in computational power mean that the keylength of block ciphers, upon which the security relies entirely, becomes less resistant to cryptanalysis over time. Therefore, the security for a block cipher with a particular keylength typically is seen to last for at most some decades. One common approach to strengthen a block cipher’s security is based on increasing its keylength. In the literature, two strategies have emerged':' multiple keyed multiple encryption and multiple keyed XOR sandwiching. Known attacks on these such as Meet-in-the-Middle(Merkle and Hellman, 1981; van Oorschot and Wiener, 1991; Lucks, 1998) and Related-Key (J. Kelsey and Wagner, 1996; Choi et al., 1996; Vaudenay, 2011; Phan, 2004) attacks, show that Triple Encryption is significantly weaker than a brute-force attack would suggest, especially for block ciphers with small keys, such as the Data Encryption Standard (DES). This paper provides a comprehensive analysis on the security of the XOR sandwiching paradigm against known attacks for the case of multiple keyed triple encryption, w.l.o.g. using DES as the underlying block cipher. In particular, we focus on DES-XEXEXEX variants, based on 2-Key and 3-Key Triple-DES, which involve performing the XOR for key-whitening before and after each encryption with an additional 64-bit key. One of the conclusions to be drawn from this work is the increased strength obtained from the XOR sandwiching paradigm while requiring little in terms of additional computational resources.</p>
+    <p class="pub-abstract">Cryptanalysis of block ciphers is an active and important research area with an extensive volume of literature. For this work, we focus on SBox-based ciphers, as they are widely used and cover a large class of block ciphers. While there have been prior works that have consolidated attacks on block ciphers, they usually focus on describing and listing the attacks. Moreover, the methods for evaluating a cipher&rsquo;s security are often ad hoc, differing from cipher to cipher, as attacks and evaluation techniques are developed along the way. As such, we aim to organise the attack literature, as well as the work on security evaluation. In this work, we present a systematization of cryptanalysis of SBox-based block ciphers focusing on three main areas: (1) Evaluation of block ciphers against standard cryptanalytic attacks; (2) Organisation and relationships between various attacks; (3) Comparison of the evaluation and attacks on existing ciphers.</p>
     
 
     
@@ -836,8 +832,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#3">
+              Preprint
             </a>
           </div>
         </div>
@@ -853,7 +849,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>10th International Conference on Security and Cryptography</em> (SECRYPT)</div>
+          <div class="col-12 col-md-9">On <em>Cryptology ePrint Archive</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -885,7 +881,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://thisurlisnotruthless.com/publication/sandwiches/&amp;text=On%20the%20Security%20of%20the%20XOR%20Sandwiching%20Paradigm%20for%20Multiple%20Keyed%20Block%20Ciphers%20%28SECRYPT%202013%29" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://thisurlisnotruthless.com/publication/dso_sok/&amp;text=SoK:%20Security%20Evaluation%20of%20SBox-Based%20Block%20Ciphers" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -898,7 +894,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://thisurlisnotruthless.com/publication/sandwiches/&amp;t=On%20the%20Security%20of%20the%20XOR%20Sandwiching%20Paradigm%20for%20Multiple%20Keyed%20Block%20Ciphers%20%28SECRYPT%202013%29" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://thisurlisnotruthless.com/publication/dso_sok/&amp;t=SoK:%20Security%20Evaluation%20of%20SBox-Based%20Block%20Ciphers" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -911,7 +907,7 @@
       
       
       <li>
-        <a href="mailto:?subject=On%20the%20Security%20of%20the%20XOR%20Sandwiching%20Paradigm%20for%20Multiple%20Keyed%20Block%20Ciphers%20%28SECRYPT%202013%29&amp;body=https://thisurlisnotruthless.com/publication/sandwiches/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=SoK:%20Security%20Evaluation%20of%20SBox-Based%20Block%20Ciphers&amp;body=https://thisurlisnotruthless.com/publication/dso_sok/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -924,7 +920,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://thisurlisnotruthless.com/publication/sandwiches/&amp;title=On%20the%20Security%20of%20the%20XOR%20Sandwiching%20Paradigm%20for%20Multiple%20Keyed%20Block%20Ciphers%20%28SECRYPT%202013%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://thisurlisnotruthless.com/publication/dso_sok/&amp;title=SoK:%20Security%20Evaluation%20of%20SBox-Based%20Block%20Ciphers" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -937,7 +933,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=On%20the%20Security%20of%20the%20XOR%20Sandwiching%20Paradigm%20for%20Multiple%20Keyed%20Block%20Ciphers%20%28SECRYPT%202013%29%20https://thisurlisnotruthless.com/publication/sandwiches/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=SoK:%20Security%20Evaluation%20of%20SBox-Based%20Block%20Ciphers%20https://thisurlisnotruthless.com/publication/dso_sok/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -950,7 +946,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://thisurlisnotruthless.com/publication/sandwiches/&amp;title=On%20the%20Security%20of%20the%20XOR%20Sandwiching%20Paradigm%20for%20Multiple%20Keyed%20Block%20Ciphers%20%28SECRYPT%202013%29" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://thisurlisnotruthless.com/publication/dso_sok/&amp;title=SoK:%20Security%20Evaluation%20of%20SBox-Based%20Block%20Ciphers" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Ruth Ng</title>
+    <link>https://thisurlisnotruthless.com/publication-type/3/</link>
+      <atom:link href="https://thisurlisnotruthless.com/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://thisurlisnotruthless.com/media/icon_hucff6e2a541fb0e93fcc30f7393854c2b_4830_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://thisurlisnotruthless.com/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>SoK: Security Evaluation of SBox-Based Block Ciphers</title>
+      <link>https://thisurlisnotruthless.com/publication/dso_sok/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://thisurlisnotruthless.com/publication/dso_sok/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
